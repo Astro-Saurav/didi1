@@ -107,7 +107,6 @@ const Gallery = () => {
       />
 
       <p className="mt-6 text-center text-sm text-muted-foreground">
-        To change files, edit the `mediaItems` list in the Gallery component.
       </p>
     </section>
   );
