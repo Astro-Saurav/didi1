@@ -8,9 +8,13 @@ interface Track {
 }
 
 const tracks: Track[] = [
-  { title: "EXO – Love Shot", url: "https://www.youtube.com/watch?v=Lo2qQmj0_h4" },
-  { title: "EXO – Monster", url: "https://www.youtube.com/watch?v=KSH-FVVtTf0" },
-  { title: "EXO – Cream Soda", url: "https://www.youtube.com/watch?v=pSudEWBAYRE" },
+  { "title": "EXO – Monster", "url": "https://www.youtube.com/watch?v=KSH-FVVtTf0" },
+  { "title": "EXO – Growl", "url": "https://www.youtube.com/watch?v=I3dezFzsNss" },
+  { "title": "EXO – Call Me Baby", "url": "https://www.youtube.com/watch?v=yWfsla_Uh80" },
+  { "title": "EXO – Overdose", "url": "https://www.youtube.com/watch?v=TI0DGvqKZTI" },
+  { "title": "EXO – Ko Ko Bop", "url": "https://www.youtube.com/watch?v=IdssuxDdqKk" },
+  { "title": "EXO – Tempo", "url": "https://www.youtube.com/watch?v=iwd8N6K-sLk" },
+  { "title": "EXO – Love Shot", "url": "https://www.youtube.com/watch?v=pSudEWBAYRE" },
 ];
 
 const MusicPlayer = () => {
