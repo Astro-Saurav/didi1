@@ -72,7 +72,7 @@ const MusicPlayer = () => {
           onEnded={next}
         />
       </motion.div>
-      <p className="text-center mt-2 text-xs text-muted-foreground">Streaming from YouTube — no uploads needed. Update links in MusicPlayer.tsx.</p>
+      <p className="text-center mt-2 text-xs text-muted-foreground"></p>
     </div>
   );
 };
