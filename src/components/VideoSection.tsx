@@ -71,7 +71,6 @@ const VideoSection = () => {
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          2–3 favorite clips with dreamy, neon glow.
         </motion.p>
       </header>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
