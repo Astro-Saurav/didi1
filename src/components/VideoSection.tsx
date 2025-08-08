@@ -3,14 +3,13 @@ import ReactPlayer from "react-player";
 import { motion, AnimatePresence } from "framer-motion";
 
 const videos = [
-  "https://www.youtube.com/watch?v=Lo2qQmj0_h4", // EXO - Love Shot
   "https://www.youtube.com/watch?v=KSH-FVVtTf0", // EXO - Monster
   "https://www.youtube.com/watch?v=I3dezFzsNss", // EXO - Growl
   "https://www.youtube.com/watch?v=yWfsla_Uh80", // EXO - Call Me Baby
   "https://www.youtube.com/watch?v=TI0DGvqKZTI", // EXO - Overdose
   "https://www.youtube.com/watch?v=IdssuxDdqKk", // EXO - Ko Ko Bop
   "https://www.youtube.com/watch?v=iwd8N6K-sLk", // EXO - Tempo
-  "https://www.youtube.com/watch?v=pSudEWBAYRE"  // EXO - Cream Soda
+  "https://www.youtube.com/watch?v=pSudEWBAYRE"  // EXO - Love Shot
 ];
 
 const VideoCard = ({ url, index = 0, onOpen }: { url: string; index?: number; onOpen: (url: string) => void }) => {
